@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "current_time": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.transport=STDIO",
+        "-Dspring.main.web-application-type=none",
+        "-Dlogging.pattern.console=",
+        "-jar",
+        "D:/work/my_project/mcp-demo/mcp-server-stdio/target/mcp-server-stdio.jar"
+      ],
+      "env": {}
+    },
+    "mcp-server-chart": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@antv/mcp-server-chart"]
+    }
+  }
+}
